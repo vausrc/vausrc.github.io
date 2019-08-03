@@ -1,0 +1,13 @@
+<div class="c-newsletter">
+  <div class="c-newsletter__header">
+    <h4 class="c-newsletter__title">Bản tin</h4>
+    <div class="c-newsletter__subtitle">Theo dõi blog và nhận thông báo về bài viết mới qua email.</div>
+  </div>
+  <form class="c-newsletter-form validate" action="{% if site.mailchimp %}//{{site.mailchimp}}{% else %}#{% endif %}" method="POST" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+    <div class="c-newsletter-form__group">
+      <label class="u-screen-reader-text" for="mce-EMAIL">Địa chỉ email</label>
+      <input class="c-newsletter__email required email" id="mce-EMAIL" type="email" name="EMAIL" placeholder="Email của bạn" autocomplete="on">
+      <input class="c-newsletter__button" id="mc-embedded-subscribe" type="submit" name="subscribe" value="Đăng ký">
+    </div>
+  </form>
+</div> <!-- /.c-newsletter -->

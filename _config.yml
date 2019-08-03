@@ -1,0 +1,54 @@
+title: Dev Vâu | Lập trình cho tương lai
+description: Dạy lập trình | Tự học lập trình tốt nhất | Phương pháp học lập trình hiệu quả
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "vausrc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author
+author-name:    DEV VÂU
+author-image:   author-devvau.png
+author-job:     Web Developer | Full-stack{overflow}
+author-email:   devvau.io@gmail.com # Add your email for contant form.
+author-twitter: dev_vau # Add your twitter account
+about-author: code. eat. sleep. loop
+
+# Social settings
+social-twitter: dev_vau
+social-facebook:
+social-github: devvau6868
+social-pinterest: artemsheludko
+social-instagram: artemsheludko_
+social-youtube:
+social-vk:   
+social-linkedin:
+
+# Newsletter
+mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+
+# Google Analytics
+google-analytics: UA-145008651-1 # Add your identifier. For example UA-99631805-1
+
+# Comment Section (Disqus)
+# disqus-identifier: mr-brown # Add your shortname for Disqus Comment. For example mr-brown
+
+# Build settings
+markdown: kramdown
+permalink: "/:title.dev"
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+paginate: 7
+paginate_path: "/page/:num/"
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
